@@ -1,0 +1,33 @@
+.feedbackOptions {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  margin: 5px;
+  padding: 10px 20px;
+  background-color: #e0e0e0;
+  color: #333;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button--good:hover,
+.button--good:focus {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.button--neutral:hover,
+.button--neutral:focus {
+  background-color: #fdd835;
+  color: #333;
+}
+
+.button--bad:hover,
+.button--bad:focus {
+  background-color: #f44336;
+  color: #fff;
+}
